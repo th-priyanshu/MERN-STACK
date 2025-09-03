@@ -1,0 +1,31 @@
+.circle{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    background-color: rgb(160, 249, 249);
+}
+.circle1{
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    #float: right;
+    #position: absolute;
+    #left: 510px;
+  
+}
+.container{
+    border: 2px solid black;
+    background-color: rgb(246, 192, 122);
+    height: 400px;
+    width: 500px;
+    display: flex;
+    #flex-direction: row-reverse;
+    #justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
